@@ -104,7 +104,7 @@ position among the other output files.
 #include <signal.h>
 #include <sys/file.h>
 #include "obstack.h"
-#include "config.h"
+//#include "config.h"
 
 #define obstack_chunk_alloc xmalloc
 #define obstack_chunk_free free
